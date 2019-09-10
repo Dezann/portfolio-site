@@ -1,0 +1,46 @@
+$bg-color:#222222;
+$additional-color: #FFCC0A;
+
+body,html,.content{
+    height:100vh;
+    width:100vw;
+}
+
+.content{
+    background-color: $bg-color;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle-text{
+    margin-bottom: 11em;
+    .line{
+        display:block;
+        margin:auto;
+        background-color:$additional-color;
+        width: 70vw;
+        height: 4px;
+    }
+    .name{
+        font-size: 11vw;
+        font-weight: 700;
+        p{
+        margin:0.2em;
+        padding:0.2em;
+        }
+    }
+    .job{
+        font-size: 6vw;
+        font-weight: 100;
+        font-style: italic;
+    }
+}
+
+
+
+p{
+    text-align: center;
+}
