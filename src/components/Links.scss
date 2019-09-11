@@ -1,13 +1,17 @@
-.content{
+@import "./../variables.scss";
+
+.links-content{
+    height: 100%;
+    background-color: $bg-color;
+    color:white;
+    display:flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .my_photo{
     margin-bottom: 6vh;
-}
-
-.links{
-
 }
 
 .links{

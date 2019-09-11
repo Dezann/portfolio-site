@@ -5,7 +5,7 @@ class WelcomePage extends Component {
     state = {}
     render() {
         return (
-            <div className="content">
+            <div className="welcome-page-content">
                 <div className="middle-text">
                     <div className="name">
                         <p>Bartosz Kępka</p>

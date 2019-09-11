@@ -9,7 +9,7 @@ class Links extends Component {
     state = {}
     render() {
         return (
-            <div className="content">
+            <div className="links-content">
                 <img src={my_photo} className="my_photo"></img>
                 <div className="links">
                     <div className="site_names">
