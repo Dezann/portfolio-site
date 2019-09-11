@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import "./WelcomePage.scss"
-
+import panorama from "../media/panorama.svg"
 class WelcomePage extends Component {
     state = {}
     render() {
@@ -16,6 +16,7 @@ class WelcomePage extends Component {
                         <p>Warsaw, Poland</p>
                     </div>
                 </div>
+                <img src={panorama} className="panorama"></img>
             </div>
         );
     }

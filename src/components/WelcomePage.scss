@@ -1,7 +1,6 @@
-$bg-color:#222222;
-$additional-color: #FFCC0A;
+@import "./../variables.scss";
 
-body,html,.content{
+body,html, .content{
     height:100vh;
     width:100vw;
 }
@@ -11,12 +10,13 @@ body,html,.content{
     color:white;
     display:flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
 .middle-text{
-    margin-bottom: 11em;
+    //Fix this solution with space-between
+    margin-top: 13em;
     .line{
         display:block;
         margin:auto;
@@ -39,7 +39,10 @@ body,html,.content{
     }
 }
 
-
+.panorama{
+    display: block;
+    justify-self: flex-end;
+}
 
 p{
     text-align: center;

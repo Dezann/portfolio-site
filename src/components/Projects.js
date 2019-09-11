@@ -6,7 +6,9 @@ class Projects extends Component {
     state = {}
     render() {
         return (
-            <p>Projects</p>
+            <div className="content">
+
+            </div>
         );
     }
 }

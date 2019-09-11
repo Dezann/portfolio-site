@@ -1,0 +1,32 @@
+.content{
+    justify-content: center;
+}
+
+.my_photo{
+    margin-bottom: 6vh;
+}
+
+.links{
+
+}
+
+.links{
+    width: 70vw;
+    font-size: 3vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .icons{
+        img{
+        display:flex;
+        margin: 15px;
+        height: 2em;
+        width: auto;
+        }
+    }
+}
+
+p{
+    text-align: left
+}
+
