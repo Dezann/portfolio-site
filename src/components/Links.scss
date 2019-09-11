@@ -3,7 +3,6 @@
 .links-content{
     height: 100%;
     background-color: $bg-color;
-    color:white;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -24,6 +23,7 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        
     }
     .links-line{
         margin: 3px;
@@ -33,14 +33,6 @@
     }
     p{
         text-align: left
-    }
-    .icons{
-        img{
-        display:flex;
-        margin: 15px;
-        height: 2em;
-        width: auto;
-        }
     }
 }
 

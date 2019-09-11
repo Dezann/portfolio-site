@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import "./Links.scss"
 import my_photo from "../media/my_photo.svg"
 import github from "../media/github.svg"
-import e_mail from "../media/e_mail.svg"
+import e_mail from "../media/e_mail.png"
 import linkedin from "../media/linkedin.svg"
 
 class Links extends Component {
@@ -14,17 +14,17 @@ class Links extends Component {
                 <div className="links">
                     <div className="links-row">
                         <p>Github</p>
-                        <a href="https://github.com/dezann"><img src={github}></img></a>
+                        <a href="https://github.com/dezann"><img alt="" src={github}></img></a>
                     </div>
                     <div className="links-line"></div>
                     <div className="links-row">
                         <p>Email</p>
-                        <a href="mailto: bartoszkepka1999@gmail.com"><img src={e_mail}></img></a>
+                        <a href="mailto: bartoszkepka1999@gmail.com"><img alt="" src={e_mail}></img></a>
                     </div>
                     <div className="links-line"></div>
                     <div className="links-row">
                         <p>Linkedin</p>
-                        <a href="https://www.linkedin.com/in/bartosz-k%C4%99pka-118325181/.com"><img src={linkedin}></img></a>
+                        <a href="https://www.linkedin.com/in/bartosz-k%C4%99pka-118325181/.com"><img alt="" src={linkedin}></img></a>
                     </div>
                 </div>
             </div >
