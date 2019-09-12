@@ -9,6 +9,25 @@
     background-color: $bg-color;
     display:flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+
+}
+
+.carousel{
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    right: 0;
+    left: 0;
+    img{
+        display:block;
+        margin:auto;
+    }
+}
+
+.carousel-wrapper{
+    height: 30vh;
+    width: 100%;
+    position: relative;
 }
