@@ -12,20 +12,26 @@ class Links extends Component {
             <div className="links-content">
                 <img src={my_photo} className="my-photo"></img>
                 <div className="links">
-                    <div className="links-row">
-                        <p>Github</p>
-                        <a href="https://github.com/dezann"><img alt="" src={github}></img></a>
-                    </div>
+                    <a href="https://github.com/dezann">
+                        <div className="links-row">
+                            <p>Github</p>
+                            <img alt="" src={github}></img>
+                        </div>
+                    </a>
                     <div className="links-line"></div>
-                    <div className="links-row">
-                        <p>Email</p>
-                        <a href="mailto: bartoszkepka1999@gmail.com"><img alt="" src={e_mail}></img></a>
-                    </div>
+                    <a href="mailto: bartoszkepka1999@gmail.com">
+                        <div className="links-row">
+                            <p>Email</p>
+                            <img alt="" src={e_mail}></img>
+                        </div>
+                    </a>
                     <div className="links-line"></div>
-                    <div className="links-row">
-                        <p>Linkedin</p>
-                        <a href="https://www.linkedin.com/in/bartosz-k%C4%99pka-118325181/.com"><img alt="" src={linkedin}></img></a>
-                    </div>
+                    <a href="https://www.linkedin.com/in/bartosz-k%C4%99pka-118325181/.com">
+                        <div className="links-row">
+                            <p>Linkedin</p>
+                            <img alt="" src={linkedin}></img>
+                        </div>
+                    </a>
                 </div>
             </div >
         );
