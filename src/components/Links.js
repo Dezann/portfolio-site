@@ -12,23 +12,23 @@ class Links extends Component {
             <div className="links-content">
                 <img src={my_photo} className="my-photo"></img>
                 <div className="links">
-                    <a href="https://github.com/dezann">
+                    <a href="https://github.com/dezann" target="_blank">
                         <div className="links-row">
-                            <p>Github</p>
+                            <p>GITHUB</p>
                             <img alt="" src={github}></img>
                         </div>
                     </a>
                     <div className="links-line"></div>
-                    <a href="mailto: bartoszkepka1999@gmail.com">
+                    <a href="mailto: bartoszkepka1999@gmail.com" target="_blank">
                         <div className="links-row">
-                            <p>Email</p>
+                            <p>EMAIL</p>
                             <img alt="" src={e_mail}></img>
                         </div>
                     </a>
                     <div className="links-line"></div>
                     <a href="https://www.linkedin.com/in/bartosz-k%C4%99pka-118325181/.com">
-                        <div className="links-row">
-                            <p>Linkedin</p>
+                        <div className="links-row" target="_blank">
+                            <p>LINKEDIN</p>
                             <img alt="" src={linkedin}></img>
                         </div>
                     </a>
