@@ -38,8 +38,10 @@ body,html, .welcome-page-content{
 }
 
 .panorama{
-    display: block;
-    justify-self: flex-end;
+    position: absolute;
+    height: 30vh;
+    bottom: 0;
+    left: -183vw;
 }
 
 p{
@@ -66,7 +68,9 @@ p{
             width: 28vw;
         }
     }
-    .panorama{
+    .panorama{ 
+        left:0;
+        height: auto;
         width: 100%;
     }
     .welcome-page-content{
