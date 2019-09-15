@@ -34,7 +34,6 @@ body,html, .welcome-page-content{
     .job{
         font-size: 6vw;
         font-weight: 100;
-        font-style: italic;
     }
 }
 
@@ -45,4 +44,34 @@ body,html, .welcome-page-content{
 
 p{
     text-align: center;
+}
+
+@media (min-width: 768px){
+    .middle-text{
+        .name{
+            font-size: 8vh;
+        }
+        .job{
+            font-size: 4vh;
+            p:first-child{
+                margin-bottom:0;
+            }
+            p:nth-child(2){
+                margin-top:1vh;
+
+            }
+        }
+        .line{
+            width: 28vw;
+        }
+    }
+    .panorama{
+        display: block;
+        position: absolute;
+        width: 100%;
+        bottom: -50px;
+    }
+    .welcome-page-content{
+        position: relative;
+    }
 }
