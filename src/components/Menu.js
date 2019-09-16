@@ -6,7 +6,11 @@ class Menu extends Component {
     render() {
         return (
             <div className="menu-wrapper">
-
+                <div className="menu-pages-wrapper">
+                    <p>About me</p>
+                    <p>Projects</p>
+                    <p>Contact</p>
+                </div>
             </div>
         );
     }
