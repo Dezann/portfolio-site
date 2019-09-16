@@ -1,0 +1,15 @@
+.menu-wrapper{
+    position: fixed;
+    width: 100vw;
+    visibility: hidden;
+    height: 10vh;
+    background-color: black;
+    z-index: -1;
+}
+
+@media (min-width: 768px){
+    .menu-wrapper{
+        width: calc(100vw - 17px);
+        visibility: visible;
+    }
+}

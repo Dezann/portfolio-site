@@ -64,3 +64,31 @@
         background-color: $additional-color;
     }
 }
+
+
+@media (min-width: 768px){
+    .horizontalSlider___281Ls {
+        height:80vh;
+        width: 70vw;
+        margin:auto;
+    }
+    .carousel{
+        img{
+            display:block;
+            margin:auto;
+            height: 40vh;
+            margin-bottom: 4vh;
+        }
+    }
+    .project-title{
+        margin-bottom: 6vh;
+    }
+
+    .carousel__dot-group{
+        width: 17vw;
+        margin-bottom: 2vh;
+    }
+    .carousel-wrapper{
+        margin-bottom: 26vh;
+    }
+}

@@ -48,6 +48,10 @@ p{
     text-align: center;
 }
 
+.welcome-page-content{
+    position: relative;
+}
+
 @media (min-width: 768px){
     .middle-text{
         .name{
@@ -72,14 +76,4 @@ p{
         height: auto;
         width: 100%;
     }
-    .welcome-page-content{
-        position: relative;
-    }
-
-    .horizontalSlider___281Ls {
-        height:80vh;
-        width: 70vw;
-        margin:auto;
-    }
-
 }
