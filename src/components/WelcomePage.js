@@ -12,7 +12,7 @@ class WelcomePage extends Component {
                             <div className="line"></div>
                         </div>
                         <div className="job">
-                            <p>Front-end developer</p>
+                            <p>front-end developer</p>
                             <p>Warsaw, Poland</p>
                         </div>
                     </div>

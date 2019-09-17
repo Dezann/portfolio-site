@@ -59,9 +59,26 @@ p{
 }
 
 @media (min-width: 768px){
+    .welcome-page-content{
+        background-color: $bg-color;
+        align-items: flex-start;
+    }
+
+    .dark-bg{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 13em;
+        margin-left: 11em;
+        background-color: rgba(0, 0, 0, 0.815);
+        height: 60vh;
+        width: 60vh;
+    }
+
     .middle-text{
         .name{
-            font-size: 8vh;
+            text-transform: uppercase;
+            font-size: 6vh;
         }
         .job{
             font-size: 3vh;
@@ -73,7 +90,7 @@ p{
             }
         }
         .line{
-            width: 28vw;
+            width: 25vw;
         }
     }
 }
