@@ -12,7 +12,7 @@ class Menu extends Component {
                     <p>Contact</p>
                 </div>
             </div>
-        );
+        )
     }
 }
 
