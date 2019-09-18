@@ -3,10 +3,17 @@
     flex-direction: column;
     justify-content: center;
     align-content: center;
+    background-color: rgba(0, 0, 0, 0.76);
+    width: 36vh;
+    height: 42vh;
+    padding: 3vh;
 }
 
 .project-title{
     font-size: 3.2vh;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
 
 .project-img{
@@ -19,8 +26,9 @@
     font-size: 2.7vh;
     width: 31vh;
     margin:auto;
+    font-weight: 300;
 }
 
 .project-wrapper{
-    margin-bottom: 10vh;
+    margin-top: 10vh;
 }

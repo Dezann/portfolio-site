@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import cardman from "../media/Projects/cardman.svg"
+import poznajmySie from "../media/Projects/poznajmy-sie.svg"
 import Project from "./Project"
 import "./Projects.scss"
 
@@ -15,9 +16,14 @@ class Projects extends Component {
                     info="A multiplayer cardman game with playing cards.">
                 </Project>
                 <Project
-                    title="Cardman Multiplayer"
-                    image={cardman}
-                    info="A multiplayer cardman game with playing cards.">
+                    title="Poznajmy się"
+                    image={poznajmySie}
+                    info="A fortune wheel party game with intriguing questions.">
+                </Project>
+                <Project
+                    title="Place holder"
+                    image={poznajmySie}
+                    info="A fortune wheel party game with intriguing questions.">
                 </Project>
             </div>
         );

@@ -1,15 +1,19 @@
 @import "./../variables.scss";
 
 .projects-page-content{
-    height:100vh;
+    height:180vh;
     width:100vw;
+    background-image: url("../media/projects-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .projects-page-content{
     background-color: $bg-color;
     display:flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 
