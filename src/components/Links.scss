@@ -7,6 +7,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url("../media/contact-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: $bg-color;
+}
+
+.links-wrapper{
+    padding: 2vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(0, 0, 0, 0.76);
 }
 
 .my-photo{
@@ -29,6 +43,10 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        padding: 1vh;
+        &:hover{
+            background-color: rgba(255, 255, 255, 0.103);
+        }
         
     }
     .links-line{
@@ -43,12 +61,19 @@
 }
 
 @media (min-width: 768px){
+    .links-content{
+        align-items: flex-start;
+    }
+    .links-wrapper{
+        padding: 2em;
+        margin-left:20vw;
+    }
     .my-photo{
-        height: 35vh;
-        margin-bottom: 10vh;
+        height: 25vh;
+        margin-bottom: 5vh;
     }
     .links{
-        width: 30vw;
+        width: 20vw;
     }    
 }
 

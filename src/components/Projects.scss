@@ -7,13 +7,9 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.projects-page-content{
     background-color: $bg-color;
     display:flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
 }
 
@@ -22,4 +18,16 @@
         margin-bottom: 6vh;
     }
 
+    .projects-page-content{
+        height:100vh;
+        flex-direction: row;
+        background-image: url("../media/projects-desktop-bg.jpg");
+    }
+    .projects-wrapper{
+        width: 80vw;
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
 }

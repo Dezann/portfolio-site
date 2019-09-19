@@ -10,21 +10,23 @@ class Projects extends Component {
     render() {
         return (
             <div className="projects-page-content">
-                <Project
-                    title="Cardman Multiplayer"
-                    image={cardman}
-                    info="A multiplayer cardman game with playing cards.">
-                </Project>
-                <Project
-                    title="Poznajmy się"
-                    image={poznajmySie}
-                    info="A fortune wheel party game with intriguing questions.">
-                </Project>
-                <Project
-                    title="Place holder"
-                    image={poznajmySie}
-                    info="A fortune wheel party game with intriguing questions.">
-                </Project>
+                <div className="projects-wrapper">
+                    <Project
+                        title="Cardman Multiplayer"
+                        image={cardman}
+                        info="A multiplayer hangman with elements of card game.">
+                    </Project>
+                    <Project
+                        title="Poznajmy się"
+                        image={poznajmySie}
+                        info="A fortune wheel party game with intriguing questions.">
+                    </Project>
+                    <Project
+                        title="Place holder"
+                        image={poznajmySie}
+                        info="A fortune wheel party game with intriguing questions.">
+                    </Project>
+                </div>
             </div>
         );
     }
