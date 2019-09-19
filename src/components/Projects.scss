@@ -1,7 +1,7 @@
 @import "./../variables.scss";
 
 .projects-page-content{
-    height:180vh;
+    height:220vh;
     width:100vw;
     background-image: url("../media/projects-bg.jpg");
     background-position: center;
@@ -11,16 +11,34 @@
     display:flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+.primary-projects-txt{
+    font-weight: 800;
+    line-height: 6vh;
+    letter-spacing: 2px;
+    font-size: 4vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    p{
+        margin:0;
+    }
+}
+
+.line{
+    margin-top: 2vh;
+    height: 2px;
+    width: 60vw;
+    background-color: $additional-color;
 }
 
 @media (min-width: 768px){
-    .project-title{
-        margin-bottom: 6vh;
-    }
 
     .projects-page-content{
         height:100vh;
-        flex-direction: row;
         background-image: url("../media/projects-desktop-bg.jpg");
     }
     .projects-wrapper{
@@ -30,4 +48,13 @@
         align-items: center;
         justify-content: space-between;
     }
+
+    .primary-projects-txt{
+        font-size: 6vh;
+        margin-bottom: 4vh;
+    }
+    .line{
+        width: 40vw;
+    }
+    
 }

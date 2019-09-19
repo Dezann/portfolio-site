@@ -10,6 +10,10 @@ class Projects extends Component {
     render() {
         return (
             <div className="projects-page-content">
+                <div className="primary-projects-txt">
+                    <p>MY PRIMARY PROJECTS</p>
+                    <div className="line"></div>
+                </div>
                 <div className="projects-wrapper">
                     <Project
                         title="Cardman Multiplayer"
