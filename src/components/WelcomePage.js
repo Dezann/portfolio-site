@@ -8,8 +8,7 @@ class WelcomePage extends Component {
                 <div className="dark-bg">
                     <div className="middle-text">
                         <div className="name">
-                            <p>Bartosz Kępka</p>
-                            <div className="line"></div>
+                            <p><span style={{ color: "#FFCC0A" }}>Bartosz</span> Kępka</p>
                         </div>
                         <div className="job">
                             <p>front-end developer</p>
@@ -17,7 +16,7 @@ class WelcomePage extends Component {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div >
         );
     }
 }

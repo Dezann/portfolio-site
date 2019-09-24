@@ -15,6 +15,7 @@ class Projects extends Component {
                 </div>
                 <div className="projects-wrapper">
                     <Project
+                        link="https://github.com/VengelStudio/cardman-multiplayer"
                         title="Cardman Multiplayer"
                         image={cardman}
                         info="A multiplayer hangman with elements of card game.">
@@ -25,7 +26,7 @@ class Projects extends Component {
                         info="A fortune wheel party game with intriguing questions.">
                     </Project>
                     <Project
-                        title="Place holder"
+                        title="Placeholder"
                         image={poznajmySie}
                         info="A fortune wheel party game with intriguing questions.">
                     </Project>

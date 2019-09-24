@@ -3,25 +3,25 @@
 .projects-page-content{
     height:220vh;
     width:100vw;
-    background-color:#F5F5F5;
+    background-color:$bg-color;
     color:#08090A;
     display:flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
 
-.primary-projects-txt{
-    font-weight: 800;
-    line-height: 6vh;
-    letter-spacing: 2px;
-    font-size: 4vh;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    p{
-        margin:0;
+    .primary-projects-txt{
+        font-weight: 800;
+        line-height: 6vh;
+        letter-spacing: 2px;
+        font-size: 4vh;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        p{
+            margin:0;
+        }
     }
 }
 
@@ -29,17 +29,18 @@
 
     .projects-page-content{
         height:100vh;
-    }
-    .projects-wrapper{
-        width: 80vw;
-        display:flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-    }
 
-    .primary-projects-txt{
-        font-size: 6vh;
-        margin-bottom: 4vh;
+        .projects-wrapper{
+            width: 80vw;
+            display:flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+    
+        .primary-projects-txt{
+            font-size: 6vh;
+            margin-bottom: 4vh;
+        }
     }
 }

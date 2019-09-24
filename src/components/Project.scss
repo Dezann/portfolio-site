@@ -5,6 +5,7 @@
 
 .project-wrapper{
     display:flex;
+    color:#08090A;
     flex-direction: column;
     justify-content: center;
     align-content: center;
@@ -13,37 +14,37 @@
     box-shadow: 0px 3px 3px grey;
     width: 30vh;
     height: 42vh;
-    padding: 3vh;    
+    padding: 3vh;
+    margin-top: 10vh;
+
+    .project-title{
+        display:flex;
+        justify-content: center;
+        align-items: flex-start;
+        font-size: 3.2vh;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        height: 4vh;
+        margin-bottom: 6vh;
+    }
+    
+    .project-img{
+        height: 15vh;
+    }
+    
+    .project-info{
+        text-align: center;
+        font-size: 2.7vh;
+        width: 31vh;
+        margin:auto;
+        font-weight: 300;
+    }
+    
     &:hover{
         animation: zoom 0.2s ease-in forwards;
     }
 }
 
-.project-title{
-    display:flex;
-    justify-content: center;
-    align-items: flex-start;
-    font-size: 3.2vh;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    height: 4vh;
-    margin-bottom: 6vh;
-}
 
-.project-img{
-    height: 15vh;
-}
-
-.project-info{
-    text-align: center;
-    font-size: 2.7vh;
-    width: 31vh;
-    margin:auto;
-    font-weight: 300;
-}
-
-.project-wrapper{
-    margin-top: 10vh;
-}
 
