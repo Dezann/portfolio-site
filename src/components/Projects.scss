@@ -3,11 +3,8 @@
 .projects-page-content{
     height:220vh;
     width:100vw;
-    background-image: url("../media/projects-bg.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: $bg-color;
+    background-color:#F5F5F5;
+    color:#08090A;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -28,18 +25,10 @@
     }
 }
 
-.line{
-    margin-top: 2vh;
-    height: 2px;
-    width: 60vw;
-    background-color: $additional-color;
-}
-
 @media (min-width: 768px){
 
     .projects-page-content{
         height:100vh;
-        background-image: url("../media/projects-desktop-bg.jpg");
     }
     .projects-wrapper{
         width: 80vw;
@@ -53,8 +42,4 @@
         font-size: 6vh;
         margin-bottom: 4vh;
     }
-    .line{
-        width: 40vw;
-    }
-    
 }
