@@ -9,7 +9,7 @@
     align-items: center;
 
     .contact-me-txt{
-        font-size: 4vh;
+        font-size: 3vh;
         font-weight: 600;
         text-transform: uppercase;
         letter-spacing: 3px;
@@ -30,7 +30,7 @@
     justify-content: center;
     align-items: center;
     width: 60vw;
-    margin-bottom: 10vh;
+    margin-bottom: 13vh;
 }
 
 .my-photo{
@@ -41,43 +41,35 @@
 .links{
     letter-spacing: 3px;
     font-weight: 600;
-    width: 60vw;
-    font-size: 2.5vh;
-    display: flex;
-    flex-direction: column;
     img{
-        height: 6vh;
+        height: 5vh;
         color: $additional-color;
+        justify-self: center;
     }
     .links-row{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        display: grid;
         align-items: center;
+        width: 60vw;
+        grid-template-columns: 50% 50%;
         padding: 1vh;
         p{
             text-align: left;
-            font-size: 3vh;
+            font-size: 2.5vh;
         }
-        &:hover{
-            background-color: rgba(255, 255, 255, 0.103);
-        }
-        
-    }
-    p{
-        text-align: left
     }
 }
 
 @media (min-width: 768px){
-    .links-content{
-        .contact-me-txt{
-            font-size: 6vh;
-        }
-    }
     a{
         display:block;
         margin:auto;
+    }
+
+    .links{
+        img{
+            height: 7vh;
+            justify-self: start;
+        }
     }
 
     .links-content{
@@ -85,6 +77,9 @@
         align-items: center;
         justify-content: space-between;
         height: 100%;
+        .contact-me-txt{
+            font-size: 6vh;
+        }
     }
     .my-photo{
         height: 70vh;
@@ -94,16 +89,18 @@
         width: 24vw;
         height: 5px;
     }
+    .links-wrapper{
+        width: 30vw;
+        margin-left: 40vh;
+    }
+
     .links{
         .links-row{
-            width: 14vw;
-            padding: 0;
+            width: 20vw;
             p{
-            font-size: 4vh;
-            width: 4vw;
-            text-align: left;
+            font-size: 3vh;
             }
         }
-    }    
+    }
 }
 
