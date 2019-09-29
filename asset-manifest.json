@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio-site/static/css/main.b4f8e9b4.chunk.css",
+    "main.js": "/portfolio-site/static/js/main.ac9c0e7d.chunk.js",
+    "main.js.map": "/portfolio-site/static/js/main.ac9c0e7d.chunk.js.map",
+    "runtime~main.js": "/portfolio-site/static/js/runtime~main.91922847.js",
+    "runtime~main.js.map": "/portfolio-site/static/js/runtime~main.91922847.js.map",
+    "static/js/2.a6b6c12f.chunk.js": "/portfolio-site/static/js/2.a6b6c12f.chunk.js",
+    "static/js/2.a6b6c12f.chunk.js.map": "/portfolio-site/static/js/2.a6b6c12f.chunk.js.map",
+    "index.html": "/portfolio-site/index.html",
+    "precache-manifest.e93a7e7d5629b2671db42b5ad17dadaa.js": "/portfolio-site/precache-manifest.e93a7e7d5629b2671db42b5ad17dadaa.js",
+    "service-worker.js": "/portfolio-site/service-worker.js",
+    "static/css/main.b4f8e9b4.chunk.css.map": "/portfolio-site/static/css/main.b4f8e9b4.chunk.css.map",
+    "static/media/cardman.svg": "/portfolio-site/static/media/cardman.42310385.svg",
+    "static/media/e_mail.svg": "/portfolio-site/static/media/e_mail.4cd529fe.svg",
+    "static/media/github.svg": "/portfolio-site/static/media/github.e618bb41.svg",
+    "static/media/linkedin.svg": "/portfolio-site/static/media/linkedin.3af095f8.svg",
+    "static/media/my_photo.jpg": "/portfolio-site/static/media/my_photo.16bf2304.jpg",
+    "static/media/poznajmy-sie.svg": "/portfolio-site/static/media/poznajmy-sie.d9a03262.svg",
+    "static/media/WelcomePage.scss": "/portfolio-site/static/media/welcome-page-bg.32a9a5cb.jpg"
+  }
+}
