@@ -3,13 +3,12 @@ import cardman from '../media/Projects/cardman.svg'
 import poznajmySie from '../media/Projects/poznajmy-sie.svg'
 import Project from './Project'
 import './Projects.scss'
-
 class Projects extends Component {
   state = {}
 
   render() {
     return (
-      <div className='projects-page-content' id='projects'>
+      <div className='projects-page-content'>
         <div className='primary-projects-txt'>
           <p>MY PRIMARY PROJECTS</p>
         </div>

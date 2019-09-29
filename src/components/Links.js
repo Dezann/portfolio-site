@@ -9,7 +9,7 @@ class Links extends Component {
   state = {}
   render() {
     return (
-      <div className='links-content' id='contact'>
+      <div className='links-content'>
         <div className='links-wrapper'>
           <p className='contact-me-txt'>Contact me</p>
           <div className='line'></div>
@@ -26,7 +26,7 @@ class Links extends Component {
                 <p>Email</p>
               </div>
             </a>
-            <a href='https://www.linkedin.com/in/bartosz-k%C4%99pka-118325181/.com'>
+            <a href='https://www.linkedin.com/in/bartosz-k%C4%99pka-118325181/'>
               <div className='links-row' target='_blank'>
                 <img alt='' src={linkedin}></img>
                 <p>Linkedin</p>
