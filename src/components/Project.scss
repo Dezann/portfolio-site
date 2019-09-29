@@ -46,8 +46,11 @@
   }
 
   @media (min-width: 768px) {
-    max-width: 20vw;
+    max-width: 13vw;
+    max-height: 38vh;
+    margin-top:0;
     width: auto;
+    margin-bottom: 10vh;
     .project-title{
       font-size: 1.6vmax;
     }
