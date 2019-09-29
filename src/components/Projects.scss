@@ -1,46 +1,51 @@
-@import "./../variables.scss";
+@import './../variables.scss';
 
-.projects-page-content{
-    height:220vh;
-    width:100vw;
-    background-color:$bg-color;
-    color:#08090A;
-    display:flex;
+.projects-page-content {
+  padding: 20vh 0;
+  width: 100%;
+  background-color: $bg-color;
+  color: #08090a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .primary-projects-txt {
+    font-weight: 800;
+    line-height: 6vh;
+    letter-spacing: 2px;
+    font-size: 4vh;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-
-    .primary-projects-txt{
-        font-weight: 800;
-        line-height: 6vh;
-        letter-spacing: 2px;
-        font-size: 4vh;
-        display:flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        p{
-            margin:0;
-        }
+    p {
+      margin: 0;
     }
+  }
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
+  .projects-page-content {
+    height: 100vh;
 
-    .projects-page-content{
-        height:100vh;
-
-        .projects-wrapper{
-            width: 80vw;
-            display:flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: space-between;
+    .projects-wrapper {
+      display: flex;
+      flex-direction: row;
+      & > a {
+        margin: 10vh 4vmax 0 4vmax;
+        &:first-of-type {
+          margin-left: 0;
         }
-    
-        .primary-projects-txt{
-            font-size: 6vh;
-            margin-bottom: 4vh;
+        &:last-of-type {
+          margin-right: 0;
         }
+      }
     }
+
+    .primary-projects-txt {
+      font-size: 6vh;
+      margin-bottom: 4vh;
+    }
+  }
 }
