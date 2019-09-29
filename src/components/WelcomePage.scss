@@ -28,10 +28,10 @@ p {
     align-items: center;
     background-color: rgba(0, 0, 0, 0.815);
     width: 40vh;
-
+    margin-bottom: 18vh;
     .middle-text {
       .name {
-        font-size: 11vw;
+        font-size: 9vw;
         font-weight: 700;
         p {
           margin: 0.2em;
@@ -39,7 +39,7 @@ p {
         }
       }
       .job {
-        font-size: 6vw;
+        font-size: 5vw;
         font-weight: 300;
       }
     }
