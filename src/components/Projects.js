@@ -14,20 +14,20 @@ class Projects extends Component {
         </div>
         <div className='projects-wrapper'>
           <Project
+            title='Poznajmy się'
+            image={poznajmySie}
+            info='A fortune wheel party game with intriguing questions.'
+          ></Project>
+          <Project
             link='https://github.com/VengelStudio/cardman-multiplayer'
             title='Cardman Multiplayer'
             image={cardman}
             info='A multiplayer hangman with elements of card game.'
           ></Project>
           <Project
-            title='Poznajmy się'
-            image={poznajmySie}
-            info='A fortune wheel party game with intriguing questions.'
-          ></Project>
-          <Project
             title='Placeholder'
             image={poznajmySie}
-            info='A fortune wheel party game with intriguing questions.'
+            info='Placeholder'
           ></Project>
         </div>
       </div>
