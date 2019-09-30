@@ -30,7 +30,7 @@ class Menu extends Component {
                         to='about'
                         spy={true}
                         smooth={true}
-                        offset={-70}
+                        offset={-59}
                         duration={500}
                     >
                         About
@@ -40,7 +40,7 @@ class Menu extends Component {
                         to='projects'
                         spy={true}
                         smooth={true}
-                        offset={-70}
+                        offset={-59}
                         duration={500}
                     >
                         Projects
@@ -50,7 +50,7 @@ class Menu extends Component {
                         to='contact'
                         spy={true}
                         smooth={true}
-                        offset={-70}
+                        offset={-60}
                         duration={500}
                     >
                         Contact
