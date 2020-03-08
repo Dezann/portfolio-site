@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import cardman from '../media/Projects/cardman.svg'
-import poznajmySie from '../media/Projects/poznajmy-sie.svg'
-import Project from './Project'
+import cardman from '../../media/Projects/cardman.svg'
+import poznajmySie from '../../media/Projects/poznajmy-sie.svg'
+import Project from '../Project/Project'
 import './Projects.scss'
 class Projects extends Component {
   state = {}

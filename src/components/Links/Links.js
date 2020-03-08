@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import './Links.scss'
-import my_photo from '../media/my_photo.jpg'
-import github from '../media/github.svg'
-import e_mail from '../media/e_mail.svg'
-import linkedin from '../media/linkedin.svg'
+import my_photo from '../../media/my_photo.jpg'
+import github from '../../media/github.svg'
+import e_mail from '../../media/e_mail.svg'
+import linkedin from '../../media/linkedin.svg'
 
 class Links extends Component {
   state = {}

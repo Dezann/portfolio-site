@@ -1,10 +1,10 @@
 import React from 'react'
 import './App.scss'
-import './components/WelcomePage'
-import WelcomePage from './components/WelcomePage'
-import Projects from './components/Projects'
-import Links from './components/Links'
-import Menu from './components/Menu'
+import './components/WelcomePage/WelcomePage'
+import WelcomePage from './components/WelcomePage/WelcomePage'
+import Projects from './components/Projects/Projects'
+import Links from './components/Links/Links'
+import Menu from './components/Menu/Menu'
 import { Element } from 'react-scroll'
 
 function App() {
